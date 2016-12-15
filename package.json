@@ -4,11 +4,11 @@
   "description": "Simple api testing module",
   "main": "index.js",
   "scripts": {
-    "test": "npm install; node test.js; rm -R node_modules"
+    "test": "npm install; node test.js;"
   },
-  "repository" :{
-      "type" : "git",
-      "url" : "https://github.com/marschro/devpunx-api-tests"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marschro/devpunx-api-tests"
   },
   "keywords": [
     "api",
@@ -20,7 +20,7 @@
     "async": "^2.0.1",
     "cli-table": "^0.3.1",
     "colors": "^1.1.2",
-    "config": "^1.21.0",
+    "json5": "^0.5.1",
     "request": "^2.74.0"
   }
 }
