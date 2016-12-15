@@ -33,6 +33,8 @@ class Test {
                 ? ':' + this.config.port
                 : ''
             let basicAuth   = this.config.UseBasicAuth
+                ? this.config.UseBasicAuth
+                : false
             let tests       = this.config.tests
 
 

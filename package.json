@@ -4,7 +4,7 @@
   "description": "Simple api testing module",
   "main": "index.js",
   "scripts": {
-    "test": "npm install; node test.js;"
+    "test": "npm install; node test.js; rm -R node_modules"
   },
   "repository": {
     "type": "git",
